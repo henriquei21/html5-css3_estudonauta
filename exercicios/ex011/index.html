@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir essa aba em vários dispositivos</p>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/img-g.jpg" type="image/jpg">
+        <source media="(min-width: 750px)" srcset="imagens/img-m.jpg" type="image/png">
+        <img src="imagens/img-p.jpg" alt="">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p> Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio controls preload="metadata" autoplay loop>
+        <source src="midia/would-it-kill-you-mini-vandals.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infelizmente não foi possível reproduzir o áudio. <a href="midia/would-it-kill-you-mini-vandals.mp3" download="would-it-kill-you-mini-vandals.mp3">CLIQUE AQUI</a> para realizar o download.</p>
+</body>
+</html>
