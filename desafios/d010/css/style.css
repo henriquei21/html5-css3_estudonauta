@@ -17,10 +17,51 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue';
     --fonte-android: 'android', Arial;
-
 }
-
+*{
+    margin: 0em;
+    padding: 0em;
+}
 body{
     background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
     
+}
+header{
+    height: 6.3em;
+    background-color: var(--cor5);
+    color: #ffffff;
+}
+header h1,p{
+    padding-top: 1.2em;
+text-align: center;}
+nav{
+    height: 3.2em;
+    background-color: var(--cor5);
+    color: #ffffff;
+}
+main{
+    background-color: #ffffff;
+    max-width: 50em;
+    margin: auto;
+    padding: 2.5em;
+}
+main img{
+    width: 100%;
+}
+main .img-pq{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+main h1{
+    font-family: var(--fonte-android);
+    
+}
+main h2{
+    font-family: var(--fonte-android);
+}
+footer{
+    background-color: var(--cor5);
+    color: #ffffff;
 }
