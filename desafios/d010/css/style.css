@@ -74,6 +74,39 @@ main{
     margin: auto;
     padding: 2.5em;
 }
+main h1{
+    font-family: var(--fonte-android);
+    color: var(--cor5);
+    
+}
+main h2{
+    font: 1.3em var(--fonte-android);
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 0.325em;
+}
+main p{
+    padding: 0.9375em 0em;
+    text-align: justify;
+    text-indent: 1.8em;  
+    line-height: 1.8em; 
+
+}
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+}
+main a{
+    padding: 0.125em 0.625em;
+    background-color: var(--cor0);
+    color: var(--cor5);
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover{
+    color: var(--cor3);
+    text-decoration: underline;
+}
 main img{
     width: 100%;
 }
@@ -81,13 +114,6 @@ main .img-pq{
     max-width: 350px;
     display: block;
     margin: auto;
-}
-main h1{
-    font-family: var(--fonte-android);
-    
-}
-main h2{
-    font-family: var(--fonte-android);
 }
 footer{
     background-color: var(--cor5);
