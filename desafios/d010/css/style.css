@@ -28,17 +28,45 @@ body{
     
 }
 header{
-    height: 6.3em;
-    background-color: var(--cor5);
+    min-height: 9.4em;
+    padding-top: 2.5em;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));    
     color: #ffffff;
+    text-align: center;
 }
-header h1,p{
-    padding-top: 1.2em;
-text-align: center;}
-nav{
-    height: 3.2em;
-    background-color: var(--cor5);
+header h1{
+    margin-bottom: 0.5em;
+    font: bold 3em var(--fonte-destaque);
+    color: #ffffff;   
+    letter-spacing: 0.075em;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.404);
+}
+header p{
+    max-width: 31.3em;
+    margin: auto;
+    padding: 0em 0.625em 0em 0.625em;
+    font: 1.2em var(--fonte-padrao);
     color: #ffffff;
+    text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.404);
+}
+nav{
+    min-height: 2.2em;
+    padding: 2em 2em 0.625em 2em;
+    background-color: var(--cor5);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24);
+}
+nav a{
+    padding: 0.625em;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 0.625em;
+    transition-duration: 0.4s;
+}
+nav a:hover{
+    color: var(--cor5);
+    background-color: var(--cor3);
 }
 main{
     background-color: #ffffff;
@@ -50,7 +78,7 @@ main img{
     width: 100%;
 }
 main .img-pq{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
