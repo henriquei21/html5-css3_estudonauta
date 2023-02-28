@@ -13,28 +13,25 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: #a9a9a9;
     font-family: var(--fonte1);
 }
 
 header{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
-    
-    
 }
 header > h1{
-    padding-top: 50px;
-    font-family: var(--fonte2);
-    font-size: 10vw;
+    padding-top: 3.125rem;
+    font: 10vw var(--fonte2);
     font-variant: small-caps;
 }
 header > p{
-    padding-bottom: 50px;
+    padding-bottom: 3.125rem;
 }
 a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -42,43 +39,36 @@ a:hover{
     text-decoration: underline;
 }
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 10vh 0px  10vh 1.875rem;
+    font: 3.5vw var(--fonte3);
     line-height: 2em;
-    padding-left: 30px;
-    font-family: var(--fonte3);
-    font-size: 3.5vw;
 }
 section.normal{
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
 }
 section.imagem{
-    background-color: rgb(51, 51, 51);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px #00000065;
 }
 section.imagem p{
     display: inline-block;
-    padding: 5px;   
-    background-color: rgba(0, 0, 0, 0.226);
+    padding: 0.313rem;   
+    background-color: #0000003a;
     text-shadow: 1px 1px 0px black;
 }
 section#img01{
-    background-image: url(../imagens/background001.jpg);
-    background-position: right center;
-    background-size: cover;
+    background: url(../imagens/background001.jpg) fixed right center;
     background-attachment: fixed;
 }
 section#img02{
-    background-image: url(../imagens/background002.jpg);
-    background-position: left center;
+    background: url(../imagens/background002.jpg) fixed left center;
     background-size: cover;
-    background-attachment: fixed;
 }
 footer{
-    padding: 10px;
-    background-color: black;
-    color: white;
+    padding: 0.625rem;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
 }
